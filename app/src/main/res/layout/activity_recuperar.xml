@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/negro_principal"
+    tools:context=".RecuperarActivity">
+
+    <TextView
+        android:id="@+id/tvTitleConfirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/app_title_recuperar"
+        android:textColor="@color/celeste_principal"
+        android:textSize="@dimen/size_title"
+        android:typeface="monospace" />
+
+    <LinearLayout
+        android:id="@+id/layoutCentralLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitleConfirmation"
+        android:background="#000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/edit_text_style"
+            android:ems="10"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:paddingHorizontal="20dp"
+            android:textColor="@color/blanco_principal"
+            android:textColorHint="@color/gris_hint"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/size_values_big" />
+
+        <TextView
+            android:id="@+id/tvCodigoSeguridad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:text="@string/info_codigo_seguridad"
+            android:textColor="@color/blanco_principal"
+            android:textSize="16dp"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/etCodigoSeguridad"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/edit_text_style"
+            android:ems="10"
+            android:hint="@string/hint_codigo_seguridad"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:paddingHorizontal="20dp"
+            android:textColor="@color/blanco_principal"
+            android:textColorHint="@color/gris_hint"
+            android:visibility="invisible"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/size_values_big" />
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tableRowButtons1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnVolverRecuperar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_button"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/blanco_principal"
+            android:textSize="@dimen/size_values_small" />
+
+        <Button
+            android:id="@+id/btnRecuperar"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/boton_redondo_style"
+            android:text="@string/text_recuperar"
+            android:textColor="@color/blanco_principal"
+            android:textSize="@dimen/size_values_big"
+            android:gravity="center" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRowButtons2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/btnVolverCodigoSeguridad"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_button"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/blanco_principal"
+            android:textSize="@dimen/size_values_small" />
+
+        <Button
+            android:id="@+id/btnContinuar"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/boton_redondo_style"
+            android:text="@string/text_continuar"
+            android:textColor="@color/blanco_principal"
+            android:textSize="@dimen/size_values_big"
+            android:gravity="center"/>
+    </TableRow>
+
+</RelativeLayout>
