@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/negro_principal"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tvTitleConfirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/app_title"
+        android:textColor="@color/blanco_principal"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="monospace">
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/layoutCentralLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tvRegistro"
+        android:layout_below="@+id/tvTitleConfirmation"
+        android:background="#000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <include layout="@layout/divider_layout" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="31dp"
+            android:background="@drawable/edit_text_style"
+            android:ems="10"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:paddingHorizontal="20dp"
+            android:textColor="@color/blanco_principal"
+            android:textColorHint="@color/gris_hint"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/size_values_big"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="31dp"
+            android:background="@drawable/edit_text_style"
+            android:ems="10"
+            android:hint="@string/hint_clave"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:paddingHorizontal="20dp"
+            android:textColor="@color/blanco_principal"
+            android:textColorHint="@color/gris_hint"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/size_values_big" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/boton_redondo_style"
+            android:text="Confirmar"
+            android:textColor="@color/blanco_principal"
+            android:textSize="@dimen/size_values_big"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutRecuperarClave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/tvRecuperarClaveParte1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_recuperarclave_p1"
+                android:textColor="@color/blanco_principal"
+                android:textSize="@dimen/size_values_small"/>
+
+            <TextView
+                android:id="@+id/tvRecuperarClaveParte2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_recuperarclave_p2"
+                android:textColor="@color/celeste_hypervinculo"
+                android:textSize="@dimen/link_size"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <include layout="@layout/divider_layout" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:clickable="false"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:paddingTop="15dp"
+        android:text="@string/text_registrarse"
+        android:textColor="@color/celeste_hypervinculo"
+        android:textColorLink="@color/celeste_hypervinculo"
+        android:textSize="@dimen/size_value_in" />
+</RelativeLayout>

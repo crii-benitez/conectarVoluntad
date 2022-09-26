@@ -1,0 +1,28 @@
+<resources>
+    <!-- title -->
+    <string name="app_name">ConectarIgualdad</string>
+    <string name="app_title">Conectar Igualdad</string>
+    <string name="app_title_recuperar">Recuperar cuenta</string>
+    <string name="app_title_nueva_clave">Actualizar contraseña</string>
+    <string name="app_title_registro">Nueva cuenta</string>
+
+    <!-- login -->
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_clave">Contraseña</string>
+    <string name="text_recuperarclave_p1">¿Olvidaste tu contraseña?</string>
+    <string name="text_recuperarclave_p2">&#160;Oprima aquí para recuperar la clave</string>
+    <string name="text_registrarse">Registrar una nueva cuenta</string>
+    <string name="title_activity_recuperar">RecuperarActivity</string>
+    <string name="text_continuar">Continuar</string>
+    <string name="text_recuperar">Recuperar</string>
+    <string name="hint_codigo_seguridad">Código de seguridad</string>
+    <string name="hint_repetir_clave">Repetir contraseña</string>
+    <string name="text_confirmar">Confirmar</string>
+    <string name="text_datos_de_ingreso">Datos de ingreso</string>
+
+    <!-- info -->
+    <string name="info_codigo_seguridad">Ingrese el código de seguridad que se le envió al email</string>
+    <string name="title_activity_new_password">NewPasswordActivity</string>
+
+</resources>

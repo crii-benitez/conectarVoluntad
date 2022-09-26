@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="negro_principal">#000000</color>
+    <color name="blanco_principal">#FFFFFF</color>
+    <color name="celeste_principal">#2196F3</color>
+    <color name="celeste_hypervinculo">#316E9F</color>
+    <color name="gris_principal">#1C1C1C</color>
+    <color name="gris_fondo">#CC131313</color>
+    <color name="gris_hint">#CB7A7A7A</color>
+    <color name="gris_et_disenabled">#333333</color>
+    <color name="gris_tv_disenabled">#A3A3A3</color>
+    <color name="verde">#4CAF50</color>
+    <color name="rojo">#B61212</color>
+</resources>

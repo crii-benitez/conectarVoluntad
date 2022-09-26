@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_toolbar">20sp</dimen>
+    <dimen name="size_title">26sp</dimen>
+    <dimen name="size_subtitle">20sp</dimen>
+    <dimen name="link_size">14sp</dimen>
+    <dimen name="size_values_small">16sp</dimen>
+    <dimen name="size_values_medium">18sp</dimen>
+    <dimen name="size_values_big">20sp</dimen>
+    <dimen name="size_value_in">18sp</dimen>
+    <dimen name="size_info_big">36sp</dimen>
+</resources>
