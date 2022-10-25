@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/negro_principal"
     android:orientation="vertical"
-    tools:context=".LoginActivity">
+    tools:context=".platform.activity.LoginActivity">
     <TextView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/tvTitleConfirmation"
         android:layout_width="match_parent"

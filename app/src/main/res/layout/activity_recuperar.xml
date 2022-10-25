@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/negro_principal"
-    tools:context=".RecuperarActivity">
+    tools:context=".platform.activity.RecuperarActivity">
 
     <TextView
         android:id="@+id/tvTitleConfirmation"

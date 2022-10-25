@@ -6,7 +6,7 @@
     android:background="@color/negro_principal"
     android:orientation="vertical"
     android:paddingHorizontal="10dp"
-    tools:context=".RegisterActivity">
+    tools:context=".platform.activity.RegisterActivity">
 
     <TextView
         android:id="@+id/tvTitleConfirmation"
